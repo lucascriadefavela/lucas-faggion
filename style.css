@@ -1,0 +1,72 @@
+.cabecalho-lista-item{
+
+    margin: 0 16px;
+    font-size: 24px;
+}<section class=”estudantes”>
+<h2 class=”estudante-titulo”>Quem são nossos estudantes</h2>
+</section>
+<section class=”estudantes”>
+    <h2 class=”estudante-titulo”>Quem são nossos estudantes</h2>
+    <img class=”estudante-imagem” src=”Marcelo.jpeg” alt=”foto do marcelo”>
+    <h3 class=”estudante-nome”>Marcelo</h3>
+</section>
+.estudante-imagem{
+    width: 120px;
+}<section class="estudante">
+<h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+<img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+<h3 class="estudante-nome">Marcelo</h3>
+<img class="estudante-icone" src="github.png" alt="icone github">
+<img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+<img class="estudante-icone" src="instagram.png" alt="icone instagram">
+</section>.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}<section class="estudante">
+<h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+<div class="estudante-div">
+<img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+         <h3 class="estudante-nome">Marcelo</h3>
+         <img class="estudante-icone" src="github.png" alt="icone github">
+         <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+         <img class="estudante-icone" src="instagram.png" alt="icone instagram">
+</div>
+</section>
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+<section class="estudante">
+        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+        <div class="estudante-div">
+     <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+                 <h3 class="estudante-nome">Marcelo</h3>
+                 <img class="estudante-icone" src="github.png" alt="icone github">
+                 <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+                 <img class="estudante-icone" src="instagram.png" alt="icone instagram">
+        </div>
+        <div class="estudante-div">
+     <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+                 <h3 class="estudante-nome">Marcelo</h3>
+                 <img class="estudante-icone" src="github.png" alt="icone github">
+                 <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
+                 <img class="estudante-icone" src="instagram.png" alt="icone instagram">
+        </div>
+</section>
+<head>
+     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<div class="estudante-div">
+<img class="estudante-imagem" src="foto.jpeg" alt="">
+<h3 class="estudante-nome">Aluno</h3>
+<a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
+<a href=""><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+<a href=""><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+</div>
+.estudantes-todos{
+    display: grid;
+    
+    }

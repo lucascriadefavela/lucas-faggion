@@ -1,2 +1,0 @@
-# lucas-faggion
-trabalho programação
